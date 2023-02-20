@@ -676,7 +676,7 @@ angular.module('evtviewer.box')
 										return true;
 									}
 								});
-								bottomMenuList.buttons.push({
+								/*bottomMenuList.buttons.push({
 									title: 'Create index for enable search',
 									label: 'Create index',
 									icon: '',
@@ -684,7 +684,7 @@ angular.module('evtviewer.box')
 									show: function () {
 										return true;
 									}
-								});
+								});*/
 							}
 							else {
 								bottomMenuList.buttons.push({
@@ -822,7 +822,7 @@ angular.module('evtviewer.box')
 									}
 								});
 							}
-							bottomMenuList.buttons.push({
+							/*bottomMenuList.buttons.push({
 								title: 'BUTTONS.FONT_CHANGE',
 								label: '',
 								icon: 'font-size',
@@ -830,7 +830,7 @@ angular.module('evtviewer.box')
 								show: function () {
 									return true;
 								}
-							});
+							});*/
 
 							updateContent = function () {
 								scope.vm.isLoading = true;
@@ -999,7 +999,7 @@ angular.module('evtviewer.box')
 							};
 							state.filterBox = false;
 
-							bottomMenuList.buttons.push({
+							/*bottomMenuList.buttons.push({
 								title: 'BUTTONS.FONT_CHANGE',
 								label: '',
 								icon: 'font-size',
@@ -1007,7 +1007,7 @@ angular.module('evtviewer.box')
 								show: function () {
 									return true;
 								}
-							});
+							});*/
 							updateContent = function () {
 								scope.vm.isLoading = true;
 								var errorMsg = '<span class="alert-msg alert-msg-error">{{ \'MESSAGES.ERROR_IN_PARSING_TEXT\' | translate }} <br /> {{ \'MESSAGES.TRY_DIFFERENT_BROWSER_OR_CONTACT_DEVS\' | translate }}</span>',
@@ -1067,7 +1067,7 @@ angular.module('evtviewer.box')
 								type: 'toggleInfoSrc'
 							});
 
-							bottomMenuList.buttons.push({
+							/*bottomMenuList.buttons.push({
 								title: 'BUTTONS.FONT_CHANGE',
 								label: '',
 								icon: 'font-size',
@@ -1075,7 +1075,7 @@ angular.module('evtviewer.box')
 								show: function () {
 									return true;
 								}
-							});
+							});*/
 
 							updateContent = function () {
 								scope.vm.isLoading = true;
@@ -1138,7 +1138,7 @@ angular.module('evtviewer.box')
 									type: 'removeVer'
 								});
 							}
-							bottomMenuList.buttons.push({
+							/*bottomMenuList.buttons.push({
 								title: 'BUTTONS.FONT_CHANGE',
 								label: '',
 								icon: 'font-size',
@@ -1146,7 +1146,7 @@ angular.module('evtviewer.box')
 								show: function () {
 									return true;
 								}
-							});
+							});*/
 
 							updateContent = function () {
 								scope.vm.isLoading = true;

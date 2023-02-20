@@ -62,7 +62,7 @@
    }
 
    input[type="text"] {
-      font-family: Junicode;
+      font-family: "Andron Mega Corpus", Junicode;
       font-size: 18px;
       height: $search-input-height;
       width: calc(100% - 230px);
@@ -131,7 +131,6 @@
 
       .result-token {
          font-weight: bold;
-         color: $search-result-item;
       }
 
       .results-number {
@@ -146,9 +145,6 @@
          .original-text {
             display: block;
             font-style: italic;
-            strong {
-               color: $search-result-item;
-            }
          }
 
          .resultInfo {

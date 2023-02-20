@@ -1,3 +1,135 @@
 .term {
    background-color: coral;
 }
+.titleStmt {
+   margin-left: 0px !important;
+}
+
+.diplomatic {
+   font-family: "Andron";
+}
+
+.diplomatic .secondColumn,
+.diplomatic .choice2col,
+.diplomatic .wordCb {
+   position: relative;
+   left: 50%;
+   top: calc(53 * -21px);
+}
+
+.diplomatic .secondColumn2 {
+   color: green;
+   position: relative;
+   left: 0%;
+   top: -0vh;
+}
+
+.diplomatic .l.secondColumn .choice.choice2col {
+   position: relative;
+   left: 0%;
+   top: 0vh;
+}
+
+.diplomaticEdition .hi[data-rend="init3.1"] {
+   font-size: 150% !important;
+   font-weight: bold;
+}
+
+.word.choice2col {
+   background-color: transparent !important;
+}
+
+.namedEntity.location-mainText.opened {
+   margin-bottom: 10px;
+   background-color: white;
+   z-index: 22;
+   position: relative;
+   max-width: 50%;
+}
+
+.fileDesc .sourceDesc {
+   display: none !important;
+}
+
+/*fix node sass scroll dialog*/
+.evt-dialog-container {
+   max-height: 80vh;
+   overflow: hidden;
+}
+.evt-tabs-container.vertical .evt-tabs-container_panels {
+   height: 75vh !important;
+}
+/*----------------------------*/
+/*-----------persName fix--------------*/
+.interpretativeEdition
+   evt-named-entity-ref.ng-isolate-scope[data-entity-type="persName"] {
+   display: inline-block;
+}
+/*-----------------------------*/
+
+.disable {
+   display: none;
+}
+
+/*---------hotspot image fix-----------*/
+
+div.hotspot-dida {
+   min-height: 35%;
+   min-width: 30%;
+   max-width: 50%;
+   height: auto !important;
+   width: auto !important;
+   display: inline-block !important;
+   overflow: auto;
+}
+
+.PopupCloser .fa-times {
+   float: left;
+}
+
+#msDesc {
+   background-color: white !important;
+   font-size: large;
+   padding-bottom: 80px;
+}
+
+.box-top-box{
+   background-color: white !important;
+   padding-bottom: 50px !important;
+}
+
+@media screen and (min-width: 950px) and (max-width: 1020px) { 
+   #box_body_mainText{
+      font-size: 60% !important;
+   }
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1150px) {
+   #box_body_mainText{
+      font-size: 65% !important;
+   }
+}
+
+@media screen and (min-width: 1151px) and (max-width: 1200px) {
+   #box_body_mainText{
+      font-size: 75% !important;
+   }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1350px) {
+   #box_body_mainText{
+      font-size: 80% !important;
+   }
+}
+
+@media screen and (min-width: 1351px) and (max-width: 1500px) {
+   #box_body_mainText{
+      font-size: 90% !important;
+   }
+}
+
+@media screen and (min-width: 1501px) {
+   #box_body_mainText{
+      font-size: 100% !important;
+   }
+}

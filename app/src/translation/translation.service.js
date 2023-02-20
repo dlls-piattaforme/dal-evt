@@ -17,7 +17,7 @@ angular.module('evtviewer.translation')
 .service('evtTranslation', ['TRANSLATIONDEFAULTS', '$translate', function(TRANSLATIONDEFAULTS, $translate) {
 	var translation = {},
 		defaults = TRANSLATIONDEFAULTS,
-		languages = ['en', 'it'],
+		languages = ['en'],
         current;
     /**
      * @ngdoc method

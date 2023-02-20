@@ -329,7 +329,7 @@ angular.module('evtviewer.interface')
             */
          $scope.getWebSite = function () {
             var webSite = evtInterface.getProperty('webSite');
-            return webSite.indexOf('http://') < 0 ? 'http://' + webSite : webSite;
+            return webSite.indexOf('https://') < 0 ? 'https://' + webSite : webSite;
          };
          /**
             * @ngdoc method
@@ -626,7 +626,7 @@ angular.module('evtviewer.interface')
             * @returns {string} id of current selected language
             */
          $scope.getCurrentLanguage = function () {
-            return evtTranslation.getCurrentLanguage();
+            return "en"; 
          };
          /**
             * @ngdoc method

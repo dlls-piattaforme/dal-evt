@@ -1,0 +1,57 @@
+@keyframes slideUp {
+	0% {
+		transform: translateY(66px);
+	}
+
+	100% {
+		transform: translateY(0);
+	}
+}
+
+.cc-window {
+	z-index: 9001;
+
+	animation-duration: 0.8s;
+	animation-name: slideUp;
+
+	background: rgba(34,34,34,.8);
+	color: white;
+	font-size: 17px;
+	box-sizing: border-box;
+}
+
+
+.cc-window a.cc-link,
+.cc-window a.cc-link:visited {
+	color: #31a8f0;
+}
+
+.cc-window a.cc-link:hover,
+.cc-window a.cc-link:focus,
+.cc-window a.cc-link:active {
+	background-color: #31a8f0;
+	color: white;
+	outline-color: none;
+}
+
+.cc-window .cc-compliance {
+	background-color: #840048;
+}
+
+.cc-window .cc-btn,
+.cc-window .cc-btn:visited {
+	text-decoration: none;
+	padding: 8px 15px;
+	color: white;
+	border: 2px solid #840048;
+}
+
+.cc-window .cc-btn:hover,
+.cc-window .cc-btn:active {
+	background-color: rgba(0, 0, 0, 0.2);
+	color: white;
+}
+
+.cc-window .cc-message {
+	display: block;
+}

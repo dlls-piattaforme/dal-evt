@@ -23,15 +23,14 @@ angular.module('evtviewer.openseadragon')
                  var source="";
                  options.tileSources = [];
                  for(var i = 0; i < lenght; i++){
-                     var imgobj = {type:"image", url:""};
+                     var imgobj = {type:"image", url:""};  
                      p = pages[i];
                      pp = parsedData.getPage(p);
                      source = pp.source;
                      if(source!==undefined && source!=='' && source!==' ' && source!==null){
-                     imgobj.url = source;
-                     options.tileSources.push(imgobj);
+                        imgobj.url = source;
+                        options.tileSources.push(imgobj.url);
                      }
-
                  }
                  options.id = "osd-img";
                  return options;

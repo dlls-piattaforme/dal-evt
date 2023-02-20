@@ -22,7 +22,8 @@ $large: (
 body {
     @include container;
 
-    font-family: Junicode, Times, serif;
+    //font-family: "Andron Mega Corpus", "Andron Mega Corpus", Junicode, Times, serif; //riga di codice originale, vecchio Andron
+    font-family: "Andron", "Andron", Junicode, Times, serif; //nuovo Andron
     background: $base-backgroundImage;
     margin: 0;
     padding: 0;
