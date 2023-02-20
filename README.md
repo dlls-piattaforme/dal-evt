@@ -1,4 +1,4 @@
-DAL-EVT2 (fork di evt-viewer)
+# DAL-EVT2 (fork di evt-viewer)
 
 Codice sorgente della versione DAL di EVT2.
 Per l'installazione e la compilazione, si rimanda al repository originale: https://github.com/evt-project/evt-viewer.
