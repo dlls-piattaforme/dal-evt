@@ -100,8 +100,7 @@
 		"WITNESSES": "Witnesses"
 	},
 	"LANGUAGES": {
-		"EN": "English",
-		"IT": "Italian"
+		"EN": "English"
 	},
 	"LISTS": {
 		"ENTITY_TYPE_": "Name",
@@ -132,7 +131,9 @@
 		"OPEN_LISTS": "Open Lists",
 		"PROJECT_INFO": "Project Info",
 		"ABOUT_EVT": "About EVT",
-		"GO_TO_EVT_WEB_PAGE": "Go to EVT web page"
+		"GO_TO_EVT_WEB_PAGE": "Go to EVT web page",
+		"PRIVACY_POLICY": "Privacy policy",
+		"TERMS_CONDITIONS": "Terms and conditions"
 	},
 	"MESSAGES": {
 		"BIBL_REF_NOT_FOUND": "Could not find bibliography referement",
